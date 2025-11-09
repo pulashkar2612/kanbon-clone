@@ -1,0 +1,38 @@
+kanban /
+├── public/
+│   └── index.html                # Main HTML file, including the root div
+├── src/
+│   ├── assets/                   # Directory for images, fonts, etc.
+│   ├── components/               # Reusable components
+│   │   ├── Drawer.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── Dropdown.tsx
+│   │   ├── ThemeToggler.tsx
+│   ├── layouts/                  # Layout components
+│   │   └── MainLayout.tsx        # Main layout wrapper
+│   ├── pages/                    # Page components
+│   │   ├── Home.tsx              # Home page
+│   │   └── Login.tsx             # Login page
+│   ├── routes/                   # Routes configuration
+│   │   └── routes.tsx            # Routes setup (AppRoutes)
+│   ├── store/                    # Redux configuration
+│   │   └── authSlice.ts          # Authentication State
+│   │   └── index.ts              # Redux default
+│   │   └── themeSlice.ts
+│   ├── styles/                   # Styles (Tailwind, CSS, etc.)
+│   │   └── index.css
+│   ├── App.tsx                   # Main App component
+│   ├── firebase.ts               # Firebase
+│   ├── hooks.ts               # customReduxHooks
+│   ├── main.tsx                  # Vite entry point
+│   └── vite-env.d.ts             # Vite environment types
+├── .gitignore                    # Git ignore file
+├── .prettierrc                   # prettier config file
+├── eslint.config.js              # ESLint configuration
+├── index.html                    # Entry point for React
+├── package.json                  # Project dependencies and scripts
+├── postcss.config.js             # Post CSS
+├── tailwind.config.js            # Tailwind CSS configuration
+├── tsconfig.json                 # TypeScript configuration
+└── vite.config.ts                # Vite configuration

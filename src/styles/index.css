@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark body {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
+
+.light body {
+  background-color: #f3f4f6;
+  color: #000;
+}
+
+.content-div {
+  max-height: 80vh;
+  overflow-y: auto;
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Kanban Application",
+  "short_name": "Kanban App",
+  "description": "A feature-packed Kanban Application built with React and TypeScript, designed for seamless task management.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2937",
+  "theme_color": "#1f2937",
+  "display_override": ["window-controls-overlay"],
+  "icons": [
+    {
+      "src": "/favicon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/fav-icon.webp",
+      "sizes": "1024x1024",
+      "type": "image/webp"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-list.png",
+      "sizes": "1585x738",
+      "type": "image/png",
+      "platform": "wide"
+    },
+    {
+      "src": "/screenshot-board.png",
+      "sizes": "1585x738",
+      "type": "image/png",
+      "platform": "narrow"
+    }
+  ]
+}
