@@ -75,8 +75,10 @@ kanban-main
 
 3. Set up environment variables:
 
-   - Copy the provided `env.txt` file to `.env`.
-   - Populate the required Firebase and AWS keys.
+- for ease, env file with firebase credentials has been sent as well.
+
+- Copy the provided `env.txt` file to `.env`.
+- Populate the required Firebase and AWS keys.
 
 4. Start the development server:
 
